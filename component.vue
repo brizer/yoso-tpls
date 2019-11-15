@@ -7,9 +7,11 @@ export default {
   name: "{{name}}",
   components: {},
   props: {},
-  data: {},
+  data() {
+    return {};
+  },
   computed: {},
-  mounted: {}
+  methods: {}
 };
 </script>
 <style >
