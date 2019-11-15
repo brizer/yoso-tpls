@@ -7,7 +7,9 @@ module.exports = {
   output: {
     filename: "index.js"
   },
-
+  resolve: {
+    extensions: ["*", ".js", ".vue", ".json"]
+  },
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, use: ["babel-loader"] },
